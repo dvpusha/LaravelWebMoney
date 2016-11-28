@@ -6,19 +6,13 @@ This package interacts with the API Webmoney
 
 ## Installation Via Composer
 
-1. Install [Composer](https://getcomposer.org/):
+1. Add the dependency:
 
     ```bash
-    curl -sS https://getcomposer.org/installer | php
+    composer require pusha/laravel-webmoney
     ```
     
-2. Add the dependency:
-
-    ```bash
-    php composer.phar require pusha/laravel-webmoney
-    ```
-    
-3. Add the service provider to `config/app.php`, within the `providers` array:
+2. Add the service provider to `config/app.php`, within the `providers` array:
 
     ```php
     'providers' => [
@@ -27,7 +21,7 @@ This package interacts with the API Webmoney
     ]
     ```
     
-4. Publish the config file:
+3. Publish the config file:
     ```
     php artisan vendor:publish
     ```
