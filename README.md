@@ -2,11 +2,9 @@
 This package interacts with the API Webmoney
 
 ## XML-interfaces supported
------
 - X2: transferring funds from one purse to another
 
 ## Installation Via Composer
------
 1. Install [Composer](https://getcomposer.org/):
 ```bash
 curl -sS https://getcomposer.org/installer | php
@@ -26,3 +24,6 @@ php composer.phar require pusha/laravel-webmoney
 ```
 php artisan vendor:publish
 ```
+
+## Examples
+- [Interface X2](https://github.com/dvpusha/LaravelWebMoney/wiki/Interface-X2)
