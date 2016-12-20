@@ -1,3 +1,6 @@
+<a href="https://packagist.org/packages/pusha/laravel-webmoney"><img src="https://poser.pugx.org/pusha/laravel-webmoney/d/total.svg" alt="Total Downloads">
+<a href="https://packagist.org/packages/pusha/laravel-webmoney"><img src="https://poser.pugx.org/pusha/laravel-webmoney/v/stable.svg" alt="Latest Stable Version"></a>
+
 # WebMoney interfaces for Laravel 5
 This package interacts with the API Webmoney
 
