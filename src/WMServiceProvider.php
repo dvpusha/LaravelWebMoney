@@ -4,8 +4,8 @@ namespace Pusha\LaravelWebMoney;
 
 use Illuminate\Support\ServiceProvider;
 
-class WMServiceProvider extends ServiceProvider {
-
+class WMServiceProvider extends ServiceProvider
+{
     /**
      * Indicates if loading of the provider is deferred.
      *
