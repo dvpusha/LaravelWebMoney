@@ -1,7 +1,8 @@
-<a href="https://packagist.org/packages/pusha/laravel-webmoney"><img src="https://poser.pugx.org/pusha/laravel-webmoney/d/total.svg" alt="Total Downloads">
-<a href="https://packagist.org/packages/pusha/laravel-webmoney"><img src="https://poser.pugx.org/pusha/laravel-webmoney/v/stable.svg" alt="Latest Stable Version"></a>
+[![Latest Stable Version](https://img.shields.io/packagist/v/pusha/laravel-webmoney.svg)](https://packagist.org/packages/pusha/laravel-webmoney)
+[![Total Downloads](https://img.shields.io/packagist/dt/pusha/laravel-webmoney.svg)](https://packagist.org/packages/pusha/laravel-webmoney)
+[![License](https://img.shields.io/github/license/pusha/laravel-webmoney.svg)](https://packagist.org/packages/pusha/laravel-webmoney)
 
-# WebMoney interfaces for Laravel 5
+# WebMoney interfaces for Laravel
 This package interacts with the API Webmoney
 
 ## XML-interfaces supported
@@ -14,7 +15,7 @@ This package interacts with the API Webmoney
     ```bash
     composer require pusha/laravel-webmoney
     ```
-    
+
 2. Add the service provider to `config/app.php`, within the `providers` array:
 
     ```php
