@@ -1,6 +1,6 @@
 <?php
 
-namespace Pusha\LaravelWebMoney;
+namespace Pusha\LaravelWebMoney\Interfaces\X2;
 
 use Illuminate\Support\Facades\Config;
 

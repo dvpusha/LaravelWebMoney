@@ -1,6 +1,8 @@
 <?php
 
-namespace Pusha\LaravelWebMoney;
+namespace Pusha\LaravelWebMoney\Interfaces\X2;
+
+use Pusha\LaravelWebMoney\WMSigner;
 
 class WMRequestX2
 {
@@ -159,10 +161,11 @@ class WMRequestX2
      * Generates the signature for data.
      *
      * @return string
+     * @throws \Exception
      */
     private function getSign()
     {
-        $signer = new Signer($this->WMID, $this->key, $this->password);
+        $signer = new WMSigner($this->WMID, $this->key, $this->password);
 
         $data = $this->reqn.
                 $this->tranID.

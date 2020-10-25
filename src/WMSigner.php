@@ -7,7 +7,7 @@ use Exception;
 /**
  * WebMoney Signer: a native PHP implementation of the WMSigner module
  */
-class Signer
+class WMSigner
 {
     const MB_ENCODING = '8bit'; // 8bit is the fastest suitable encoding for mb_* methods
 
